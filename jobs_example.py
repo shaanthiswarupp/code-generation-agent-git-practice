@@ -1,5 +1,8 @@
 # new file after change
 
+
+# newline added 
+
 def get_jobs():
     jobs = [
         {"id": 1, "title": "Create API"},
