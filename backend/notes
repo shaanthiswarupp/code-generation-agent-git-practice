@@ -1,0 +1,31 @@
+cd backend
+
+venv\scripts\activate
+
+uvicorn app.main:app --reload
+
+
+test_github_service.py
+python test_jira.py
+
+Add a "Hi Hello Welcome" header to the frontend application.
+
+Add a "Hi Hello Welcome To" heading to the existing frontend header.
+ Modify the existing component instead of rewriting App.jsx. 
+ Preserve all existing functionality.
+
+
+
+mohan@gmail.com
+
+12345678
+
+
+
+
+
+
+{
+  "repository_path": C:\Users\shaan\Desktop\code-generation-learning\backend ,
+  "requirement": "Add an endpoint to retrieve jobs from the database."
+}

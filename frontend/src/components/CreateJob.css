@@ -1,0 +1,68 @@
+
+.create-job-page {
+  padding: 24px;
+  max-width: 750px;
+}
+
+.create-job-page h1 {
+  margin-bottom: 8px;
+}
+
+.create-job-page > p {
+  color: #64748b;
+}
+
+.create-job-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 24px;
+  padding: 24px;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+}
+
+.create-job-form label {
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.create-job-form input,
+.create-job-form textarea,
+.create-job-form select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.create-job-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.create-job-actions button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.create-job-actions button:last-child {
+  background: #2563eb;
+  color: white;
+}
+
+.create-job-actions button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.create-job-error {
+  color: #dc2626;
+}

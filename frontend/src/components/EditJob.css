@@ -1,0 +1,115 @@
+
+.edit-job-page {
+  padding: 24px;
+  color: #243047;
+}
+
+.edit-back-button {
+  margin-bottom: 20px;
+  padding: 9px 14px;
+  border: 1px solid #d5dce8;
+  border-radius: 6px;
+  background: white;
+  cursor: pointer;
+}
+
+.edit-job-heading {
+  margin-bottom: 24px;
+}
+
+.edit-job-heading h1 {
+  margin-bottom: 8px;
+}
+
+.edit-job-heading p,
+.edit-message {
+  color: #68758a;
+}
+
+.edit-job-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 650px;
+  padding: 24px;
+  border: 1px solid #e1e6ef;
+  border-radius: 10px;
+  background: white;
+}
+
+.edit-job-form label {
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+.edit-job-form input,
+.edit-job-form textarea,
+.edit-job-form select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px 12px;
+  border: 1px solid #ccd4e0;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.edit-job-form textarea {
+  resize: vertical;
+}
+
+.edit-job-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.edit-save-button,
+.edit-cancel-button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit-save-button {
+  background: #3157c8;
+  color: white;
+}
+
+.edit-save-button:hover {
+  background: #2445a8;
+}
+
+.edit-cancel-button {
+  background: #edf0f5;
+  color: #34445e;
+}
+
+.edit-save-button:disabled,
+.edit-cancel-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.edit-error {
+  max-width: 650px;
+  padding: 12px;
+  border-radius: 6px;
+  background: #fff0f0;
+  color: #b42318;
+}
+
+.edit-success {
+  color: #16804a;
+}
+
+@media (max-width: 600px) {
+  .edit-job-page {
+    padding: 12px;
+  }
+
+  .edit-job-form {
+    padding: 16px;
+  }
+}

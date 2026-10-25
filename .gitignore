@@ -1,0 +1,55 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node.js
+node_modules/
+frontend/node_modules/
+
+# React build output
+frontend/dist/
+
+# AI-generated backups
+.ai_backups/
+
+# Logs
+*.log
+
+# Editor settings
+.vscode/
+.idea/
+
+
+
+
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Node.js
+node_modules/
+
+# Frontend build output
+frontend/dist/
+
+# AI backups
+.ai_backups/
+
+# Logs
+*.log
